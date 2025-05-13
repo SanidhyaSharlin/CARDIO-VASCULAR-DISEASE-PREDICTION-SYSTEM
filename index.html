@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardio Vascular Disease Prediction</title>
+</head>
+<body>
+    <h1>Cardio Vascular Disease Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required><br><br>
+
+        <label for="gender">Gender (1 for Male, 0 for Female):</label>
+        <input type="text" id="gender" name="gender" required><br><br>
+
+        <label for="height">Height (in cm):</label>
+        <input type="text" id="height" name="height" required><br><br>
+
+        <label for="weight">Weight (in kg):</label>
+        <input type="text" id="weight" name="weight" required><br><br>
+
+        <label for="ap_hi">Systolic Blood Pressure (AP_HI):</label>
+        <input type="text" id="ap_hi" name="ap_hi" required><br><br>
+
+        <label for="ap_lo">Diastolic Blood Pressure (AP_LO):</label>
+        <input type="text" id="ap_lo" name="ap_lo" required><br><br>
+
+        <label for="cholesterol">Cholesterol (1: Normal, 2: Above Normal, 3: Well Above Normal):</label>
+        <input type="text" id="cholesterol" name="cholesterol" required><br><br>
+
+        <label for="gluc">Glucose Level (1: Normal, 2: Above Normal, 3: Well Above Normal):</label>
+        <input type="text" id="gluc" name="gluc" required><br><br>
+
+        <label for="smoke">Do you smoke? (1 for Yes, 0 for No):</label>
+        <input type="text" id="smoke" name="smoke" required><br><br>
+
+        <label for="alco">Do you drink alcohol? (1 for Yes, 0 for No):</label>
+        <input type="text" id="alco" name="alco" required><br><br>
+
+        <label for="active">Are you physically active? (1 for Yes, 0 for No):</label>
+        <input type="text" id="active" name="active" required><br><br>
+
+        <label for="cardio">Do you have cardio vascular disease? (1 for Yes, 0 for No):</label>
+        <input type="text" id="cardio" name="cardio" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
